@@ -1,0 +1,5 @@
+# RPM packaging
+
+Designed to work with Fedora COPR [1]. Tested with Fedora 26, 27 and 28 only.
+
+[1] https://copr.fedorainfracloud.org/coprs/happz/ducky-qemu/

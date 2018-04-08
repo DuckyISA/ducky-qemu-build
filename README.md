@@ -1,1 +1,1 @@
-# ducky-qemu-build
+# Packaging and release stuff for ducky-qemu
