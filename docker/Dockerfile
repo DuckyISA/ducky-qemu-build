@@ -7,4 +7,6 @@ RUN    dnf update -y \
     && dnf install -y ducky-qemu \
     && dnf clean all
 
+ENV PATH=/opt/ducky/bin:$PATH
+
 ENTRYPOINT ["/opt/ducky/bin/qemu-system-ducky"]
