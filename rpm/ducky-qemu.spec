@@ -1,5 +1,5 @@
-%global VERSION 2.11.92
-%global RELEASE 3
+%global VERSION 2.12.50
+%global RELEASE 1
 
 %global source_tag %{VERSION}-%{RELEASE}
 
@@ -30,7 +30,7 @@ QEMU [1] is a generic and open source machine & userspace emulator and virtualiz
 This is a QEMU build with support for running binaries compiled for Ducky platform [2].
 
 [1] https://www.qemu.org/
-[2] WIP
+[2] https://duckyisa.github.io/
 
 %prep
 %autosetup -n ducky-qemu-%{source_tag}
