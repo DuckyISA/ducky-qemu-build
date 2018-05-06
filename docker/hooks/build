@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -x
+
+# Import predefined variables describing the release
+. ./RELEASE
+
+BUILD_DATE="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+VCS_REF="$(git rev-parse HEAD)"
+
+docker build --build-arg BUILD_DATE=$BUILD_DATE \
+             --build-arg IMAGE_VERSION=$IMAGE_VERSION \
+             --build-arg IMAGE_RELEASE=$IMAGE_RELEASE \
+             --build-arg QEMU_VERSION=$QEMU_VERSION \
+             --build-arg VCS_REF=$VCS_REF \
+             -t $IMAGE_NAME .

@@ -12,7 +12,7 @@
 Name:     ducky-qemu
 Version:  %{VERSION}
 Release:  %{RELEASE}%{?dist}
-Summary:  QEMU is a generic and open source machine & userspace emulator and virtualizer. This is a QEMU build with support for running binaries compiled for Ducky platform.
+Summary:  QEMU (https://www.qemu.org/) is a generic and open source machine & userspace emulator and virtualizer. This is a QEMU build with support for running binaries compiled for Ducky platform (https://duckyisa.github.io/).
 
 License:  QEMU license
 URL:      https://github.com/DuckyISA/ducky-qemu
