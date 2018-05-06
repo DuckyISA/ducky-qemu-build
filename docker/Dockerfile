@@ -20,8 +20,8 @@ LABEL version=$IMAGE_VERSION \
       org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.vendor="DuckyISA" \
       org.label-schema.version=$QEMU_VERSION \
-      org.label-schema.docker.cmd="docker run --rm -it -v /app/directory:/APP ducky-qemu [QEMU options] -device loader,file=/APP/app-binary,addr=0x20000 -nographic" \
-      org.label-schema.docker.cmd.help="docker run --rm ducky-qemu --help"
+      org.label-schema.docker.cmd="docker run --rm -it -v /app/directory:/APP duckyisa/qemu [QEMU options] -device loader,file=/APP/app-binary,addr=0x20000 -nographic" \
+      org.label-schema.docker.cmd.help="docker run --rm duckyisa/qemu --help"
 
 RUN    dnf update -y \
     && dnf install -y dnf-plugins-core \
