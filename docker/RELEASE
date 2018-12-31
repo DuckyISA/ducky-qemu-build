@@ -1,6 +1,6 @@
 # Predefined variables that describe the image build
 
 IMAGE_VERSION="1.0"
-IMAGE_RELEASE="2"
+IMAGE_RELEASE="3"
 
-QEMU_VERSION="2.12.50-1"
+QEMU_VERSION="3.0.50-1"
