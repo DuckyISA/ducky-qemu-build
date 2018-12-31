@@ -41,7 +41,8 @@ cd _build
 
 ../configure --disable-user \
              --target-list=ducky-softmmu \
-             --prefix=%{buildroot}/opt/ducky
+             --prefix=%{buildroot}/opt/ducky \
+             --python=/usr/bin/python
 
 make %{?_smp_mflags}
 
