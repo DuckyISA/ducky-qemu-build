@@ -18,6 +18,7 @@ License:  QEMU license
 URL:      https://github.com/DuckyISA/ducky-qemu
 Source0:  http://fanny.happz.cz/~happz/ducky-dist/ducky-qemu-%{source_tag}.tar.bz2
 
+BuildRequires:  gcc
 BuildRequires:  glib2-devel
 BuildRequires:  make
 BuildRequires:  pixman-devel
