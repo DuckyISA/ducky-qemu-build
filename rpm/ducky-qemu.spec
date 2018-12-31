@@ -1,4 +1,4 @@
-%global VERSION 2.12.50
+%global VERSION 3.0.50
 %global RELEASE 1
 
 %global source_tag %{VERSION}-%{RELEASE}
